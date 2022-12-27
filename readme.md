@@ -31,3 +31,9 @@ A altura é definida em cada ponto no plano bidimensional. Assumir um relevo con
 ## 2) Matriz de conexoes
 
 A partir da matriz discreta do terreno, devemos entender, qual o custo de deslocar-se de um ponto A a outro B. Assumindo MRU sem atrito, a unica variacao de energia ocorre com a mudanca de altura. Para esse caso, subir uma altura $ h $ custa a mesma energia que descer ela. Com isso em mente, geramos uma matriz quadrada com linhas que representam os nos de origem e as colunas os nos de saida. Essa matriz é simetrica na diagonal e preenchida pelas diferencas de altura entre pontos adjacentes.
+
+
+## Material 
+
+[JuliaCon 2020 | Building and Analyzing Graphs at Scale](https://www.youtube.com/watch?v=K3z0kUOBy2Y)
+[The shortest path problem](https://jump.dev/JuMP.jl/stable/tutorials/linear/network_flows/)
